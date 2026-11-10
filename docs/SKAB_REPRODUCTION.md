@@ -1,0 +1,7 @@
+# SKAB n=768 stress case: data not redistributed
+
+The R400 manuscript reports a separate SKAB n=768, h=8 stress case. The exact-interval search remains `UNRESOLVED` at the 16-million-label budget; the result is a limitation, not a completed benchmark win.
+
+The source dataset is the Skoltech Anomaly Benchmark (SKAB). The Kaggle dataset record identifies its distribution license as GNU AGPL-3.0; the upstream project repository uses GPL-3.0 for its code. The original observations and derived SKAB-specific interval matrices are therefore not bundled or relicensed under the repository's CC BY 4.0 data license. See the [Kaggle dataset DOI record](https://doi.org/10.34740/KAGGLE/DSV/1693952), the [upstream SKAB repository](https://github.com/waico/SKAB), and the [GNU AGPL-3.0 text](https://www.gnu.org/licenses/agpl-3.0.html).
+
+To reproduce this stress case, obtain the dataset directly from its upstream source under the license currently displayed there, then follow the dataset selection and preprocessing description in the cited SKAB project and the R257C reference materials. The R400 manuscript and archived research record identify the selected Valve1_1 n=768 case, h=8, beta interval [2,30], the 2,950-path lower bound at beta=2.75, and the 4M/8M/16M label-budget outcomes. The corresponding R390 stress logs are included in `reproduction/R390/evidence/skab/`; the input arrays are not. Do not interpret the unresolved run as evidence that all SKAB paths were enumerated.

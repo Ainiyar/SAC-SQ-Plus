@@ -1,0 +1,23 @@
+{
+  "box": "R343_n1024",
+  "n": 1024,
+  "kmin": 9,
+  "kmax": 22,
+  "independent_seed_count": 8,
+  "count_midpoint_candidate_count": 14,
+  "new_count_candidates": 6,
+  "seed_cpu": 0.31101624899999997,
+  "midpoint_count_dp_cpu": 0.21716065000000007,
+  "cert_cpu": 0.13274599999999998,
+  "status": "COMPLETE",
+  "created_labels": 161,
+  "sink_candidates": 14,
+  "cert_returncode": 0,
+  "support_cpu": 0.551291,
+  "support_returncode": 0,
+  "supported_paths": 14,
+  "archive_count": 14,
+  "candidate_archive_intersection": 14,
+  "certified_identity_equals_archive": true,
+  "total_cpu_all_stages": 1.212213899
+}

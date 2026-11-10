@@ -1,0 +1,117 @@
+{
+  "file": "n1024_occupancy_1536_lookahead.json.gz",
+  "total_cpu": 527.8534333140001,
+  "initial_cpu": 89.673069947,
+  "refinement_cpu": 437.253210836,
+  "proposal_fits": 156753,
+  "proposal_cpu": 64.05022146300001,
+  "seed_query_cpu": 21.197712933000506,
+  "refinement_components": {
+    "guide_cpu": 329.75294876400056,
+    "bank_build_cpu": 17.312728627000226,
+    "strict_query_cpu": 10.735973074000057,
+    "fit_cpu": 0.007140482999915321,
+    "pricing_cpu": 93.28989158299937,
+    "proof_relevance_preparation_cpu": 80.01658985100025,
+    "forecast_bound_closure_cpu": 126.74860815699911,
+    "published_lower_closure_cpu": 42.30601398699949
+  },
+  "queries": 309422,
+  "rows": 73817,
+  "query_count_distribution": {
+    "1": 7,
+    "21": 1,
+    "64": 30,
+    "65": 19,
+    "256": 19,
+    "257": 62,
+    "1024": 45,
+    "1025": 191,
+    "5786": 1,
+    "37800": 1
+  },
+  "median_round_overhead": 0.961259882500002,
+  "median_bank_rows": 185,
+  "snapshots": [
+    {
+      "step": 0,
+      "failed": 28
+    },
+    {
+      "step": 25,
+      "failed": 28
+    },
+    {
+      "step": 50,
+      "failed": 28
+    },
+    {
+      "step": 75,
+      "failed": 28
+    },
+    {
+      "step": 100,
+      "failed": 28
+    },
+    {
+      "step": 125,
+      "failed": 28
+    },
+    {
+      "step": 150,
+      "failed": 28
+    },
+    {
+      "step": 175,
+      "failed": 28
+    },
+    {
+      "step": 200,
+      "failed": 28
+    },
+    {
+      "step": 225,
+      "failed": 28
+    },
+    {
+      "step": 250,
+      "failed": 28
+    },
+    {
+      "step": 275,
+      "failed": 28
+    },
+    {
+      "step": 300,
+      "failed": 28
+    },
+    {
+      "step": 325,
+      "failed": 28
+    },
+    {
+      "step": 350,
+      "failed": 22
+    },
+    {
+      "step": 375,
+      "failed": 3
+    },
+    {
+      "step": 376,
+      "failed": 0
+    }
+  ],
+  "caution": "Named refinement counters overlap: relevance preparation and pricing/forecast are included in guide; charged overhead is a pricing model, not extra CPU.",
+  "total_method_source_rows": 82766,
+  "total_method_strict_queries": 916949,
+  "strict": {
+    "total_cpu": 4089.640032243,
+    "direct_fits": 156753,
+    "source_rows": 17399113,
+    "fit_cpu": 67.19123248599868,
+    "build_cpu": 3999.180420816979,
+    "query_cpu": 6.328048868014567
+  },
+  "strict_to_method_source_row_ratio": 210.22053741874683
+}

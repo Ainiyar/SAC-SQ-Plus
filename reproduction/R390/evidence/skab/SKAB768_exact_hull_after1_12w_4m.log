@@ -1,0 +1,8 @@
+status LABEL_LIMIT
+n 768 h 8 edges 289941
+pops 5863 extensions 3999999 created 4000000 skipped 170175 accepted 5810
+max_labels_at_node 472 active_sink_paths 0
+archive_witnesses 12 archive_pruned 170121 archive_checked 49553496 intervals_created 19664098
+hull_candidates 43697526 hull_vertices_total 159462 max_hull_vertices_at_node 32
+preprocess_cpu_seconds 0.077415 preprocess_wall_seconds 0.077420
+search_cpu_seconds 5.176458 search_wall_seconds 5.177943 total_cpu_seconds 5.253873

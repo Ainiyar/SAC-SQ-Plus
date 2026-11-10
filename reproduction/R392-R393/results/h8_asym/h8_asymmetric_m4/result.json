@@ -1,0 +1,23 @@
+{
+  "box": "h8_asymmetric_m4",
+  "n": 96,
+  "kmin": 1,
+  "kmax": 8,
+  "independent_seed_count": 2,
+  "count_midpoint_candidate_count": 8,
+  "new_count_candidates": 6,
+  "seed_cpu": 0.022069181999999965,
+  "midpoint_count_dp_cpu": 0.0057796989999999715,
+  "cert_cpu": 0.0026040000000000004,
+  "status": "COMPLETE",
+  "created_labels": 62,
+  "sink_candidates": 17,
+  "cert_returncode": 0,
+  "support_cpu": 0.0024449999999999993,
+  "support_returncode": 0,
+  "supported_paths": 17,
+  "archive_count": 17,
+  "candidate_archive_intersection": 2,
+  "certified_identity_equals_archive": true,
+  "total_cpu_all_stages": 0.032897880999999934
+}

@@ -1,0 +1,12 @@
+﻿run,n,grid16_created_labels,exact_interval_created_labels,grid16_safe_candidates,exact_interval_safe_candidates,grid16_exact_paths,exact_interval_exact_paths,grid16_certificate_cpu_s_single_run,exact_interval_certificate_cpu_s_single_run,output_identity_matches_archive
+R343_n1024,1024,212256,161,14,14,14,14,19.048039000000003,0.653618,True
+R372_baseline,256,1475,37,7,7,7,7,0.03240605,0.00257,True
+R372_certificate_debt,256,2769,37,7,7,7,7,0.05260575,0.00283145,True
+whole_round_holdout_occupancy_1280_lookahead,256,197,22,5,5,5,5,0.00210645,0.00188547,True
+whole_round_holdout_occupancy_1280_crops_pelt,256,104,22,5,5,5,5,0.0017367,0.00182857,True
+whole_round_holdout_eeg_1408_lookahead,256,462,136,15,15,15,15,0.03497975,0.016728840000000002,True
+whole_round_holdout_eeg_1408_crops_pelt,256,242,136,15,15,15,15,0.05572022,0.015970520000000002,True
+whole_round_holdout_secom_512_lookahead,256,503,179,28,18,18,18,0.08933117,0.03630063,True
+whole_round_holdout_secom_512_crops_pelt,256,257,179,20,18,18,18,0.0368851,0.02621663,True
+n1024_occupancy_1536_lookahead,1024,194516,161,14,14,14,14,11.044914,0.611116,True
+n1024_occupancy_1536_crops_pelt,1024,11516,161,14,14,14,14,1.099665,0.5939760000000001,True

@@ -1,0 +1,23 @@
+{
+  "box": "whole_round_holdout_occupancy_1280_lookahead",
+  "n": 256,
+  "kmin": 3,
+  "kmax": 7,
+  "independent_seed_count": 5,
+  "count_midpoint_candidate_count": 5,
+  "new_count_candidates": 0,
+  "seed_cpu": 0.05982112000000006,
+  "midpoint_count_dp_cpu": 0.0133427140000002,
+  "cert_cpu": 0.004465999999999859,
+  "status": "COMPLETE",
+  "created_labels": 22,
+  "sink_candidates": 5,
+  "cert_returncode": 0,
+  "support_cpu": 0.0036570000000000213,
+  "support_returncode": 0,
+  "supported_paths": 5,
+  "archive_count": 5,
+  "candidate_archive_intersection": 5,
+  "certified_identity_equals_archive": true,
+  "total_cpu_all_stages": 0.08128683400000014
+}

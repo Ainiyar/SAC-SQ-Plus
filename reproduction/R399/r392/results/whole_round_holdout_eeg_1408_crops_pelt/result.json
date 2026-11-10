@@ -1,0 +1,23 @@
+{
+  "box": "whole_round_holdout_eeg_1408_crops_pelt",
+  "n": 256,
+  "kmin": 6,
+  "kmax": 20,
+  "independent_seed_count": 9,
+  "count_midpoint_candidate_count": 15,
+  "new_count_candidates": 6,
+  "seed_cpu": 0.0605622509999999,
+  "midpoint_count_dp_cpu": 0.03361899000000035,
+  "cert_cpu": 0.015615000000000379,
+  "status": "COMPLETE",
+  "created_labels": 136,
+  "sink_candidates": 15,
+  "cert_returncode": 0,
+  "support_cpu": 0.00796299999999972,
+  "support_returncode": 0,
+  "supported_paths": 15,
+  "archive_count": 15,
+  "candidate_archive_intersection": 15,
+  "certified_identity_equals_archive": true,
+  "total_cpu_all_stages": 0.11775924100000035
+}

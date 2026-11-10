@@ -1,0 +1,12 @@
+BOX_DONE 1/11 R343_n1024 old_labels=212256 new_labels=161 old_med=23.012851 new_med=1.270338 elapsed=126.3s
+BOX_DONE 2/11 R372_baseline old_labels=1475 new_labels=37 old_med=0.047578 new_med=0.016372 elapsed=128.0s
+BOX_DONE 3/11 R372_certificate_debt old_labels=2769 new_labels=37 old_med=0.078707 new_med=0.015339 elapsed=130.2s
+BOX_DONE 4/11 n1024_occupancy_1536_crops_pelt old_labels=11516 new_labels=161 old_med=2.515918 new_med=1.253507 elapsed=154.3s
+BOX_DONE 5/11 n1024_occupancy_1536_lookahead old_labels=194516 new_labels=161 old_med=11.627816 new_med=1.323856 elapsed=228.9s
+BOX_DONE 6/11 whole_round_holdout_eeg_1408_crops_pelt old_labels=242 new_labels=136 old_med=0.050330 new_med=0.034125 elapsed=231.1s
+BOX_DONE 7/11 whole_round_holdout_eeg_1408_lookahead old_labels=462 new_labels=136 old_med=0.057686 new_med=0.033154 elapsed=233.4s
+BOX_DONE 8/11 whole_round_holdout_occupancy_1280_crops_pelt old_labels=104 new_labels=22 old_med=0.025260 new_med=0.014065 elapsed=234.7s
+BOX_DONE 9/11 whole_round_holdout_occupancy_1280_lookahead old_labels=197 new_labels=22 old_med=0.023767 new_med=0.014567 elapsed=235.9s
+BOX_DONE 10/11 whole_round_holdout_secom_512_crops_pelt old_labels=254 new_labels=179 old_med=0.059495 new_med=0.062137 elapsed=238.5s
+BOX_DONE 11/11 whole_round_holdout_secom_512_lookahead old_labels=483 new_labels=179 old_med=0.091734 new_med=0.074495 elapsed=242.0s
+FINISHED {"cases": 11, "all_complete": true, "geo_cert_speedup": 2.6333084320756006, "geo_full_speedup": 1.649720921532395, "geo_label_reduction": 20.9037200063746} elapsed=241.95180463790894

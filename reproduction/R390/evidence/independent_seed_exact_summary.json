@@ -1,0 +1,62 @@
+[
+  {
+    "name": "whole_round_holdout_occupancy_1280_lookahead",
+    "old_candidates": 5,
+    "new_candidates": 5,
+    "old_exact_paths": 5,
+    "new_exact_paths": 5,
+    "matching_exact_path_identity_and_endpoints": true,
+    "missing": 0,
+    "extra": 0
+  },
+  {
+    "name": "whole_round_holdout_occupancy_1280_crops_pelt",
+    "old_candidates": 5,
+    "new_candidates": 5,
+    "old_exact_paths": 5,
+    "new_exact_paths": 5,
+    "matching_exact_path_identity_and_endpoints": true,
+    "missing": 0,
+    "extra": 0
+  },
+  {
+    "name": "whole_round_holdout_eeg_1408_lookahead",
+    "old_candidates": 15,
+    "new_candidates": 15,
+    "old_exact_paths": 15,
+    "new_exact_paths": 15,
+    "matching_exact_path_identity_and_endpoints": true,
+    "missing": 0,
+    "extra": 0
+  },
+  {
+    "name": "whole_round_holdout_eeg_1408_crops_pelt",
+    "old_candidates": 15,
+    "new_candidates": 15,
+    "old_exact_paths": 15,
+    "new_exact_paths": 15,
+    "matching_exact_path_identity_and_endpoints": true,
+    "missing": 0,
+    "extra": 0
+  },
+  {
+    "name": "whole_round_holdout_secom_512_lookahead",
+    "old_candidates": 31,
+    "new_candidates": 20,
+    "old_exact_paths": 18,
+    "new_exact_paths": 18,
+    "matching_exact_path_identity_and_endpoints": true,
+    "missing": 0,
+    "extra": 0
+  },
+  {
+    "name": "whole_round_holdout_secom_512_crops_pelt",
+    "old_candidates": 21,
+    "new_candidates": 19,
+    "old_exact_paths": 18,
+    "new_exact_paths": 18,
+    "matching_exact_path_identity_and_endpoints": true,
+    "missing": 0,
+    "extra": 0
+  }
+]

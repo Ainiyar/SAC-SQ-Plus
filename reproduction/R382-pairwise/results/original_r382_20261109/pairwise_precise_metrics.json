@@ -1,0 +1,56 @@
+[
+  {
+    "arm": "whole_round_holdout_occupancy_1280_lookahead",
+    "pairwise_status": "LABEL_LIMIT",
+    "pairwise_created": 2000000,
+    "pairwise_active_sink": 0,
+    "pairwise_cpu": 1.8991149999999999,
+    "pairwise_wall": 1.8996340929988946,
+    "pairwise_log_seconds": 1.8167
+  },
+  {
+    "arm": "whole_round_holdout_occupancy_1280_crops_pelt",
+    "pairwise_status": "COMPLETE",
+    "pairwise_created": 56422,
+    "pairwise_active_sink": 5,
+    "pairwise_cpu": 0.05847700000000011,
+    "pairwise_wall": 0.05917385399880004,
+    "pairwise_log_seconds": 0.0232769
+  },
+  {
+    "arm": "whole_round_holdout_eeg_1408_lookahead",
+    "pairwise_status": "LABEL_LIMIT",
+    "pairwise_created": 2000000,
+    "pairwise_active_sink": 0,
+    "pairwise_cpu": 1.7554089999999998,
+    "pairwise_wall": 1.759011948000989,
+    "pairwise_log_seconds": 1.67296
+  },
+  {
+    "arm": "whole_round_holdout_eeg_1408_crops_pelt",
+    "pairwise_status": "COMPLETE",
+    "pairwise_created": 184502,
+    "pairwise_active_sink": 15,
+    "pairwise_cpu": 0.1666129999999999,
+    "pairwise_wall": 0.1670328519976465,
+    "pairwise_log_seconds": 0.155647
+  },
+  {
+    "arm": "whole_round_holdout_secom_512_lookahead",
+    "pairwise_status": "LABEL_LIMIT",
+    "pairwise_created": 2000000,
+    "pairwise_active_sink": 0,
+    "pairwise_cpu": 1.197378,
+    "pairwise_wall": 1.1980740030012385,
+    "pairwise_log_seconds": 1.12278
+  },
+  {
+    "arm": "whole_round_holdout_secom_512_crops_pelt",
+    "pairwise_status": "COMPLETE",
+    "pairwise_created": 213211,
+    "pairwise_active_sink": 21,
+    "pairwise_cpu": 0.25552500000000045,
+    "pairwise_wall": 0.25648185799946077,
+    "pairwise_log_seconds": 0.243862
+  }
+]

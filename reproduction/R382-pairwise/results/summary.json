@@ -1,0 +1,81 @@
+{
+  "protocol": {
+    "h": 8,
+    "beta": [
+      100000000000,
+      1200000000000
+    ],
+    "cells": 16,
+    "max_created": 2000000,
+    "time_limit_seconds": 5,
+    "witnesses": "empty"
+  },
+  "arms": [
+    {
+      "arm": "whole_round_holdout_occupancy_1280_lookahead",
+      "status": "LABEL_LIMIT",
+      "created_labels": 2000000,
+      "sink_candidates": 0,
+      "process_cpu_seconds": 1.6879940000000007,
+      "wall_seconds": 1.6915546410000388,
+      "returncode": 0,
+      "exact_possible_paths": null,
+      "matches_R392_exact_support": null
+    },
+    {
+      "arm": "whole_round_holdout_occupancy_1280_crops_pelt",
+      "status": "COMPLETE",
+      "created_labels": 56422,
+      "sink_candidates": 5,
+      "process_cpu_seconds": 0.021990999999999872,
+      "wall_seconds": 0.022551644999111886,
+      "returncode": 0,
+      "exact_possible_paths": 5,
+      "matches_R392_exact_support": true
+    },
+    {
+      "arm": "whole_round_holdout_eeg_1408_lookahead",
+      "status": "LABEL_LIMIT",
+      "created_labels": 2000000,
+      "sink_candidates": 0,
+      "process_cpu_seconds": 2.046720999999999,
+      "wall_seconds": 2.0475061369998,
+      "returncode": 0,
+      "exact_possible_paths": null,
+      "matches_R392_exact_support": null
+    },
+    {
+      "arm": "whole_round_holdout_eeg_1408_crops_pelt",
+      "status": "COMPLETE",
+      "created_labels": 184502,
+      "sink_candidates": 15,
+      "process_cpu_seconds": 0.2069770000000002,
+      "wall_seconds": 0.21360128999913286,
+      "returncode": 0,
+      "exact_possible_paths": 15,
+      "matches_R392_exact_support": true
+    },
+    {
+      "arm": "whole_round_holdout_secom_512_lookahead",
+      "status": "LABEL_LIMIT",
+      "created_labels": 2000000,
+      "sink_candidates": 0,
+      "process_cpu_seconds": 1.2918190000000003,
+      "wall_seconds": 1.2928895060003924,
+      "returncode": 0,
+      "exact_possible_paths": null,
+      "matches_R392_exact_support": null
+    },
+    {
+      "arm": "whole_round_holdout_secom_512_crops_pelt",
+      "status": "COMPLETE",
+      "created_labels": 213211,
+      "sink_candidates": 21,
+      "process_cpu_seconds": 0.22003899999999987,
+      "wall_seconds": 0.2205648499993913,
+      "returncode": 0,
+      "exact_possible_paths": 18,
+      "matches_R392_exact_support": true
+    }
+  ]
+}

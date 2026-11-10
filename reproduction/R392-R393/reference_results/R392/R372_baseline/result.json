@@ -1,0 +1,23 @@
+{
+  "box": "R372_baseline",
+  "n": 256,
+  "kmin": 3,
+  "kmax": 9,
+  "independent_seed_count": 6,
+  "count_midpoint_candidate_count": 7,
+  "new_count_candidates": 1,
+  "seed_cpu": 0.060400932000000074,
+  "midpoint_count_dp_cpu": 0.016342040000000058,
+  "cert_cpu": 0.005024999999999946,
+  "status": "COMPLETE",
+  "created_labels": 37,
+  "sink_candidates": 7,
+  "cert_returncode": 0,
+  "support_cpu": 0.004075000000000051,
+  "support_returncode": 0,
+  "supported_paths": 7,
+  "archive_count": 7,
+  "candidate_archive_intersection": 7,
+  "certified_identity_equals_archive": true,
+  "total_cpu_all_stages": 0.08584297200000013
+}

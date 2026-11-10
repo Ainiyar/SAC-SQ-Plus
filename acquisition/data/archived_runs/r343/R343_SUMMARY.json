@@ -1,0 +1,13 @@
+{
+  "run_id": "SAC_R343_ECS_ONLINE_20261108",
+  "status": "COMPLETE_PHASE_PASS",
+  "complete_box_support_certificate": true,
+  "input": {"dataset": "Occupancy", "start": 1536, "n": 1024},
+  "environment": {"python": "3.10.12", "R": "4.1.2", "crops": "1.0.5", "jsonlite": "1.7.3", "Rscript": "/usr/bin/Rscript"},
+  "r343": {"total_cpu": 446.16212241700003, "python_cpu": 445.907873417, "R_process_cpu": 0.25424899999999995, "pipeline_wall": 446.232030224, "gnu_user": 452.02, "gnu_sys": 1.48, "gnu_elapsed": 454.68, "peak_rss_kib": 910460, "initial_evidence_search_cpu": 94.14078030099999, "preparation_cpu": 0.6624589140000001, "refinement_final_proof_cpu": 351.104627242, "proof_relevance_preparation_cpu_sum": 54.850026974000215, "forecast_bound_closure_cpu_sum": 123.06114328299957, "pricing_cpu_sum": 46.08697398899976, "bank_build_cpu_sum": 17.30632026500004, "strict_query_cpu_sum": 8.859727821000448, "guide_cpu_sum": 251.7825388029995, "actions": 363, "numerical_source_fits": 27, "strict_queries": 251107, "strict_rows_built": 70940, "window_partition_calls": 48648, "window_fallbacks": 0, "window_cache_bytes_median": 1062656, "window_cache_bytes_min": 113856, "window_cache_bytes_max": 1062656, "archive_paths": 14, "phase_pass": true},
+  "references": {"R341_cpu": 454.550390639, "strict_crops_pelt_cpu": 4089.640032243, "R341_actions": 320, "R341_strict_queries": 271800, "R341_strict_rows": 60980, "R341_pricing_cpu": 83.825199758, "R341_proof_relevance_preparation_cpu": 46.439127429, "R341_forecast_closure_cpu": 107.81697827},
+  "comparison": {"same_final_path_set_as_R341": true, "same_phase_object_as_R341": true, "complete_box_support_certificate": true, "R341_over_R343_cpu_ratio": 1.018800942080332, "cpu_reduction_percent_vs_R341": 1.8453989689037387, "strict_crops_pelt_over_R343_ratio": 9.16626451857486, "first_divergence_action_zero_based": 169, "first_divergence_action_one_based": 170, "first_divergence_source_edge_same": [821, 963], "R341_components_at_first_divergence": [[818, 964], [983, 1024]], "R343_components_at_first_divergence": [[821, 963], [984, 1024]], "R341_queries_at_first_divergence": 1024, "R343_queries_at_first_divergence": 257, "first_source_edge_selection_divergence_action": 171, "R341_next_source_edge": [822, 965], "R343_next_source_edge": [820, 963]},
+  "references_rerun": false,
+  "original_project_modified": false,
+  "cleanup_performed": false
+}

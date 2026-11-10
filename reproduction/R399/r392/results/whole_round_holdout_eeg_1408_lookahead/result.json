@@ -1,0 +1,23 @@
+{
+  "box": "whole_round_holdout_eeg_1408_lookahead",
+  "n": 256,
+  "kmin": 6,
+  "kmax": 20,
+  "independent_seed_count": 9,
+  "count_midpoint_candidate_count": 15,
+  "new_count_candidates": 6,
+  "seed_cpu": 0.05903628399999983,
+  "midpoint_count_dp_cpu": 0.03532002700000003,
+  "cert_cpu": 0.015403999999999751,
+  "status": "COMPLETE",
+  "created_labels": 136,
+  "sink_candidates": 15,
+  "cert_returncode": 0,
+  "support_cpu": 0.007413000000000114,
+  "support_returncode": 0,
+  "supported_paths": 15,
+  "archive_count": 15,
+  "candidate_archive_intersection": 15,
+  "certified_identity_equals_archive": true,
+  "total_cpu_all_stages": 0.11717331099999972
+}

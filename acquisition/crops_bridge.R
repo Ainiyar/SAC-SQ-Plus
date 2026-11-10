@@ -1,0 +1,15 @@
+args<-commandArgs(trailingOnly=TRUE)
+port<-as.integer(args[[1]]);b0<-as.numeric(args[[2]]);b1<-as.numeric(args[[3]])
+outfile<-args[[4]]
+options(timeout=86400)
+library(crops);library(jsonlite)
+con<-socketConnection(host='127.0.0.1',port=port,blocking=TRUE,open='r+')
+method<-function(beta){
+  writeLines(format(beta,digits=17),con);flush(con)
+  z<-fromJSON(readLines(con,n=1))
+  as.list(c(z$unpenalized,z$ncp))
+}
+t0<-proc.time();r<-crops(method,b0,b1);t1<-proc.time()
+writeLines('DONE',con);flush(con);close(con)
+write_json(list(betas=as.numeric(r@betas),crops_version=as.character(packageVersion('crops')),
+  recursion_cpu=unname(sum((t1-t0)[1:2]))),outfile,auto_unbox=TRUE,pretty=TRUE)

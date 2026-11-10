@@ -1,0 +1,77 @@
+{
+  "n": 24,
+  "h": 1,
+  "m": 8,
+  "epsilon": 1,
+  "H_scaled": 1000000000000000,
+  "beta_interval": [
+    0,
+    "1.2"
+  ],
+  "high_edge_condition_pass": true,
+  "R357_status": "COMPLETE",
+  "R357_created_labels": 1021,
+  "R357_witness_pruned_prefixes": 212,
+  "R357_sink_paths": 256,
+  "R357_equals_all_2^m_block_paths": true,
+  "R354_candidates": 256,
+  "R354_possible": 256,
+  "R354_all_supports_exactly_[0,1.2]": true,
+  "uniform_interpolation_checks": [
+    {
+      "t": "0",
+      "beta": "0",
+      "unique_all_A": true,
+      "scaled_objective": "0"
+    },
+    {
+      "t": "0",
+      "beta": "3/5",
+      "unique_all_A": true,
+      "scaled_objective": "9600000000000"
+    },
+    {
+      "t": "0",
+      "beta": "6/5",
+      "unique_all_A": true,
+      "scaled_objective": "19200000000000"
+    },
+    {
+      "t": "1/2",
+      "beta": "0",
+      "unique_all_A": true,
+      "scaled_objective": "8000000000000"
+    },
+    {
+      "t": "1/2",
+      "beta": "3/5",
+      "unique_all_A": true,
+      "scaled_objective": "17600000000000"
+    },
+    {
+      "t": "1/2",
+      "beta": "6/5",
+      "unique_all_A": true,
+      "scaled_objective": "27200000000000"
+    },
+    {
+      "t": "1",
+      "beta": "0",
+      "unique_all_A": true,
+      "scaled_objective": "16000000000000"
+    },
+    {
+      "t": "1",
+      "beta": "3/5",
+      "unique_all_A": true,
+      "scaled_objective": "25600000000000"
+    },
+    {
+      "t": "1",
+      "beta": "6/5",
+      "unique_all_A": true,
+      "scaled_objective": "35200000000000"
+    }
+  ],
+  "theorem_uniform_interpolation_envelope": "unique all-A path for all t in [0,1] and beta in [0,1.2]"
+}

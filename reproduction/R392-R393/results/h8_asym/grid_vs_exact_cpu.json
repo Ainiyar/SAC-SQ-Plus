@@ -1,0 +1,182 @@
+[
+  {
+    "m": 3,
+    "method": "grid16",
+    "repetitions": 3,
+    "created_labels": 30,
+    "exact_paths": 9,
+    "cpu_median": 0.002549,
+    "cpu_min": 0.002328,
+    "cpu_max": 0.002843
+  },
+  {
+    "m": 3,
+    "method": "grid64",
+    "repetitions": 3,
+    "created_labels": 30,
+    "exact_paths": 9,
+    "cpu_median": 0.004041000000000003,
+    "cpu_min": 0.0032039999999999985,
+    "cpu_max": 0.004552999999999998
+  },
+  {
+    "m": 3,
+    "method": "exact",
+    "repetitions": 3,
+    "created_labels": 30,
+    "exact_paths": 9,
+    "cpu_median": 0.0017170000000000032,
+    "cpu_min": 0.0016989999999999991,
+    "cpu_max": 0.0017179999999999973
+  },
+  {
+    "m": 4,
+    "method": "grid16",
+    "repetitions": 9,
+    "created_labels": 62,
+    "exact_paths": 17,
+    "cpu_median": 0.0033510000000000068,
+    "cpu_min": 0.0029639999999999944,
+    "cpu_max": 0.005854999999999999
+  },
+  {
+    "m": 4,
+    "method": "grid64",
+    "repetitions": 9,
+    "created_labels": 62,
+    "exact_paths": 17,
+    "cpu_median": 0.006272,
+    "cpu_min": 0.0058899999999999925,
+    "cpu_max": 0.0069140000000000035
+  },
+  {
+    "m": 4,
+    "method": "exact",
+    "repetitions": 9,
+    "created_labels": 62,
+    "exact_paths": 17,
+    "cpu_median": 0.0024280000000000135,
+    "cpu_min": 0.0020969999999999878,
+    "cpu_max": 0.003166000000000002
+  },
+  {
+    "m": 5,
+    "method": "grid16",
+    "repetitions": 3,
+    "created_labels": 126,
+    "exact_paths": 33,
+    "cpu_median": 0.004486999999999991,
+    "cpu_min": 0.0042310000000000125,
+    "cpu_max": 0.004628999999999994
+  },
+  {
+    "m": 5,
+    "method": "grid64",
+    "repetitions": 3,
+    "created_labels": 126,
+    "exact_paths": 33,
+    "cpu_median": 0.012659999999999977,
+    "cpu_min": 0.011884000000000006,
+    "cpu_max": 0.013217000000000007
+  },
+  {
+    "m": 5,
+    "method": "exact",
+    "repetitions": 3,
+    "created_labels": 126,
+    "exact_paths": 33,
+    "cpu_median": 0.003699000000000008,
+    "cpu_min": 0.003119999999999984,
+    "cpu_max": 0.004749000000000003
+  },
+  {
+    "m": 6,
+    "method": "grid16",
+    "repetitions": 9,
+    "created_labels": 254,
+    "exact_paths": 65,
+    "cpu_median": 0.00803799999999999,
+    "cpu_min": 0.006747000000000003,
+    "cpu_max": 0.011863000000000012
+  },
+  {
+    "m": 6,
+    "method": "grid64",
+    "repetitions": 9,
+    "created_labels": 254,
+    "exact_paths": 65,
+    "cpu_median": 0.025173,
+    "cpu_min": 0.019486000000000003,
+    "cpu_max": 0.030642999999999976
+  },
+  {
+    "m": 6,
+    "method": "exact",
+    "repetitions": 9,
+    "created_labels": 254,
+    "exact_paths": 65,
+    "cpu_median": 0.005986000000000047,
+    "cpu_min": 0.005170999999999926,
+    "cpu_max": 0.006905999999999968
+  },
+  {
+    "m": 7,
+    "method": "grid16",
+    "repetitions": 3,
+    "created_labels": 510,
+    "exact_paths": 129,
+    "cpu_median": 0.013514000000000026,
+    "cpu_min": 0.013287000000000049,
+    "cpu_max": 0.023500999999999994
+  },
+  {
+    "m": 7,
+    "method": "grid64",
+    "repetitions": 3,
+    "created_labels": 510,
+    "exact_paths": 129,
+    "cpu_median": 0.036494999999999944,
+    "cpu_min": 0.0358210000000001,
+    "cpu_max": 0.03720800000000002
+  },
+  {
+    "m": 7,
+    "method": "exact",
+    "repetitions": 3,
+    "created_labels": 510,
+    "exact_paths": 129,
+    "cpu_median": 0.01427899999999993,
+    "cpu_min": 0.013253999999999877,
+    "cpu_max": 0.02164900000000003
+  },
+  {
+    "m": 8,
+    "method": "grid16",
+    "repetitions": 9,
+    "created_labels": 1260,
+    "exact_paths": 257,
+    "cpu_median": 0.03770399999999996,
+    "cpu_min": 0.030458999999999792,
+    "cpu_max": 0.0621560000000001
+  },
+  {
+    "m": 8,
+    "method": "grid64",
+    "repetitions": 9,
+    "created_labels": 1260,
+    "exact_paths": 257,
+    "cpu_median": 0.07268600000000025,
+    "cpu_min": 0.0679829999999999,
+    "cpu_max": 0.0901590000000001
+  },
+  {
+    "m": 8,
+    "method": "exact",
+    "repetitions": 9,
+    "created_labels": 1260,
+    "exact_paths": 257,
+    "cpu_median": 0.04091,
+    "cpu_min": 0.030283999999999978,
+    "cpu_max": 0.04459499999999994
+  }
+]

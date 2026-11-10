@@ -1,0 +1,84 @@
+{
+  "rows": [
+    {
+      "dataset": "occupancy",
+      "start": 1280,
+      "n": 256,
+      "p": 7,
+      "rank": 7,
+      "label_counts": [
+        82,
+        174
+      ],
+      "label_transitions": 1,
+      "eligible": true
+    },
+    {
+      "dataset": "eeg",
+      "start": 1408,
+      "n": 256,
+      "p": 16,
+      "rank": 16,
+      "label_counts": [
+        26,
+        230
+      ],
+      "label_transitions": 1,
+      "eligible": true
+    },
+    {
+      "dataset": "secom",
+      "start": 512,
+      "n": 256,
+      "p": 10,
+      "rank": 10,
+      "label_counts": [
+        249,
+        7
+      ],
+      "label_transitions": 14,
+      "eligible": true
+    }
+  ],
+  "selected": [
+    {
+      "dataset": "occupancy",
+      "start": 1280,
+      "n": 256,
+      "p": 7,
+      "rank": 7,
+      "label_counts": [
+        82,
+        174
+      ],
+      "label_transitions": 1,
+      "eligible": true
+    },
+    {
+      "dataset": "eeg",
+      "start": 1408,
+      "n": 256,
+      "p": 16,
+      "rank": 16,
+      "label_counts": [
+        26,
+        230
+      ],
+      "label_transitions": 1,
+      "eligible": true
+    },
+    {
+      "dataset": "secom",
+      "start": 512,
+      "n": 256,
+      "p": 10,
+      "rank": 10,
+      "label_counts": [
+        249,
+        7
+      ],
+      "label_transitions": 14,
+      "eligible": true
+    }
+  ]
+}

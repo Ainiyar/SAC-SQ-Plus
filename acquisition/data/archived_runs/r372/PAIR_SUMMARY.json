@@ -1,0 +1,285 @@
+{
+  "experiment": "R372 single prospective pair: Occupancy [1536,1792), n=256",
+  "contract": {
+    "beta_range": [
+      0.1,
+      1.2
+    ],
+    "h": 8,
+    "lambda": 0.1,
+    "budget": 400,
+    "python": "3.10.12",
+    "R": "4.1.2",
+    "CROPS": "1.0.5",
+    "input_shape": [
+      256,
+      7
+    ],
+    "common_policy": "lookahead/persistent/sparse4/source_pool=1/target entropy/debt/closure incremental/tiling/bank full/reuse proposal fits/round overhead charged",
+    "source_priority": "witness (frozen transfer launch omits option; verified default)",
+    "only_measured_policy_difference": "certificate-bank-pricing; new arm loads baseline cost calibration"
+  },
+  "arms": {
+    "baseline": {
+      "status": "COMPLETE_PHASE_PASS",
+      "stop_reason": null,
+      "complete_box_support_certificate": true,
+      "phase_pass": true,
+      "phase_counts": [
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "phase_transition_count": 6,
+      "archive_path_count": 7,
+      "archive_support_count": 7,
+      "proven_cover_interval_count": 7,
+      "total_pipeline_cpu_s": 11.895059402,
+      "python_cpu_s": 11.634722402,
+      "R_process_cpu_s": 0.260337,
+      "pipeline_wall_s": 12.21472888400001,
+      "preparation_cpu_s": 0.05100080699999987,
+      "initial_evidence_and_search_cpu_s": 5.679654777,
+      "refinement_and_final_proof_cpu_s": 5.904039748,
+      "GNU": {
+        "user_cpu_s": 12.7,
+        "system_cpu_s": 0.44,
+        "process_cpu_s": 13.139999999999999,
+        "elapsed_s": 13.47,
+        "max_rss_kb": 205428,
+        "exit_status": 0
+      },
+      "actions": 74,
+      "strict_queries": 15200,
+      "strict_rows_built": 12680,
+      "bank_actions": 45,
+      "direct_actions": 29,
+      "refinement_source_fits": 0,
+      "refinement_source_fit_cpu_s": 0.0,
+      "guide_cpu_inclusive_s": 1.3812257979999965,
+      "pricing_cpu_subcomponent_s": 0.21277868400000255,
+      "proof_relevance_cpu_subcomponent_s": 0.36514439999999215,
+      "selected_bank_build_cpu_s": 3.5805554829999853,
+      "strict_query_cpu_s": 0.5239937630000009,
+      "charged_round_overhead_cpu_s": 1.582919575,
+      "snapshot_count": 75,
+      "proposal_optimizer_cache_fits": 18233,
+      "initial_bank_sources_queries": [
+        {
+          "source": [
+            0,
+            256
+          ],
+          "queries": 12282,
+          "fit_cpu_s": 0.0006454219999998401,
+          "bank_cpu_s": 0.08061824799999995,
+          "strict_query_cpu_s": 0.44635852799999287
+        },
+        {
+          "source": [
+            0,
+            128
+          ],
+          "queries": 10421,
+          "fit_cpu_s": 0.00027858000000002825,
+          "bank_cpu_s": 0.07335051899999989,
+          "strict_query_cpu_s": 0.3528848760000123
+        },
+        {
+          "source": [
+            128,
+            256
+          ],
+          "queries": 9661,
+          "fit_cpu_s": 0.0002973510000001678,
+          "bank_cpu_s": 0.07361181800000005,
+          "strict_query_cpu_s": 0.32230965700003233
+        },
+        {
+          "source": null,
+          "queries": 0,
+          "fit_cpu_s": 2.4200000001695088e-06,
+          "bank_cpu_s": 0.0,
+          "strict_query_cpu_s": 0.0
+        }
+      ],
+      "cost_model": {
+        "row_cpu": 0.00029632888671874986,
+        "query_cpu": 3.465434003831533e-05,
+        "source": "current initial materialization"
+      },
+      "source_priority": "witness",
+      "bank_geometry": "full"
+    },
+    "certificate_bank_pricing": {
+      "status": "COMPLETE_PHASE_PASS",
+      "stop_reason": null,
+      "complete_box_support_certificate": true,
+      "phase_pass": true,
+      "phase_counts": [
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "phase_transition_count": 6,
+      "archive_path_count": 7,
+      "archive_support_count": 7,
+      "proven_cover_interval_count": 7,
+      "total_pipeline_cpu_s": 12.726013578,
+      "python_cpu_s": 12.483941578,
+      "R_process_cpu_s": 0.24207199999999998,
+      "pipeline_wall_s": 12.731217378999986,
+      "preparation_cpu_s": 0.050226996999999995,
+      "initial_evidence_and_search_cpu_s": 5.645245386,
+      "refinement_and_final_proof_cpu_s": 6.788437824,
+      "GNU": {
+        "user_cpu_s": 13.22,
+        "system_cpu_s": 0.27,
+        "process_cpu_s": 13.49,
+        "elapsed_s": 13.49,
+        "max_rss_kb": 214908,
+        "exit_status": 0
+      },
+      "actions": 85,
+      "strict_queries": 20273,
+      "strict_rows_built": 13125,
+      "bank_actions": 46,
+      "direct_actions": 39,
+      "refinement_source_fits": 0,
+      "refinement_source_fit_cpu_s": 0.0,
+      "guide_cpu_inclusive_s": 1.9531715509999952,
+      "pricing_cpu_subcomponent_s": 0.855226484999994,
+      "proof_relevance_cpu_subcomponent_s": 0,
+      "selected_bank_build_cpu_s": 3.6864588760000183,
+      "strict_query_cpu_s": 0.7316725839999867,
+      "charged_round_overhead_cpu_s": 2.1934257909999877,
+      "snapshot_count": 86,
+      "proposal_optimizer_cache_fits": 18233,
+      "initial_bank_sources_queries": [
+        {
+          "source": [
+            0,
+            256
+          ],
+          "queries": 12282,
+          "fit_cpu_s": 0.00043154099999997975,
+          "bank_cpu_s": 0.08065486799999999,
+          "strict_query_cpu_s": 0.4414517800000052
+        },
+        {
+          "source": [
+            0,
+            128
+          ],
+          "queries": 10421,
+          "fit_cpu_s": 0.000284379999999973,
+          "bank_cpu_s": 0.07320186699999998,
+          "strict_query_cpu_s": 0.34863384900000094
+        },
+        {
+          "source": [
+            128,
+            256
+          ],
+          "queries": 9661,
+          "fit_cpu_s": 0.00030785999999993763,
+          "bank_cpu_s": 0.07292179600000004,
+          "strict_query_cpu_s": 0.3193581560000043
+        },
+        {
+          "source": null,
+          "queries": 0,
+          "fit_cpu_s": 2.3799999999685184e-06,
+          "bank_cpu_s": 0.0,
+          "strict_query_cpu_s": 0.0
+        }
+      ],
+      "cost_model": {
+        "row_cpu": 0.00029632888671874986,
+        "query_cpu": 3.465434003831533e-05,
+        "source": "/dev/shm/SAC_R372_OUT/baseline/result.json"
+      },
+      "source_priority": "witness",
+      "bank_geometry": "full"
+    }
+  },
+  "certificate_object_equality": {
+    "archive_paths": true,
+    "archive_supports": true,
+    "phase": true,
+    "proven_cover_intervals": true,
+    "complete_box_support_certificate": true
+  },
+  "input_and_bounds_array_comparison": {
+    "X": {
+      "exact_equal": true,
+      "different_cells": 0
+    },
+    "y": {
+      "exact_equal": true,
+      "different_cells": 0
+    },
+    "low_int": {
+      "exact_equal": false,
+      "different_cells": 17748
+    },
+    "high_int": {
+      "exact_equal": false,
+      "different_cells": 14289
+    }
+  },
+  "same_initial_bank_sources_and_query_counts": true,
+  "same_cost_calibration_values": true,
+  "first_source_or_kind_divergence": {
+    "zero_based_action_index": 5,
+    "baseline": [
+      [
+        19,
+        81
+      ],
+      "bank"
+    ],
+    "certificate_bank_pricing": [
+      [
+        174,
+        256
+      ],
+      "bank"
+    ]
+  },
+  "first_strict_query_count_divergence": {
+    "zero_based_action_index": 3,
+    "baseline": 1025,
+    "certificate_bank_pricing": 6793
+  },
+  "deltas_new_minus_baseline": {
+    "pipeline_cpu_s": 0.8309541760000005,
+    "pipeline_cpu_percent": 6.985708502307153,
+    "GNU_process_cpu_s": 0.3500000000000014,
+    "GNU_process_cpu_percent": 2.6636225266362334,
+    "GNU_elapsed_s": 0.019999999999999574,
+    "actions": 11,
+    "strict_queries": 5073,
+    "strict_rows_built": 445
+  },
+  "prelaunch_compatibility_attempt": {
+    "status": "stopped before result.json; API compatibility TypeError; excluded from formal pair metrics",
+    "error": "Traceback (most recent call last):\n  File \"/dev/shm/SAC_R372_WORK/full_pipeline.py\", line 394, in <module>\n    if __name__=='__main__':main()\n  File \"/dev/shm/SAC_R372_WORK/full_pipeline.py\", line 301, in main\n    prepare_context(warm,L,U,warm_state['failures'],args.entropy_temperature,need_salience=True,prune='persistent' if args.pricing in ['persistent','relevant_hard','projected'] else args.pricing=='relevant',\nTypeError: prepare_context() got an unexpected keyword argument 'retain_edge_probabilities'",
+    "gnu_time": {
+      "user_cpu_s": 2.46,
+      "system_cpu_s": 0.11,
+      "process_cpu_s": 2.57,
+      "elapsed_s": 3.12,
+      "max_rss_kb": 175840,
+      "exit_status": 1
+    }
+  }
+}

@@ -1,0 +1,7 @@
+﻿instance,n,independent_seeds,after_count_dp,max_paths_with_same_k,distinct_support_upper_endpoints,analytical_true_box_possible_paths,exact_recovered_paths,status,created_labels,four_stage_cpu_s
+h8_asymmetric_m3,72,2,6,8,8,9,9,COMPLETE,30,0.02183721499999991
+h8_asymmetric_m4,96,2,8,16,16,17,17,COMPLETE,62,0.032897880999999934
+h8_asymmetric_m5,120,2,10,32,32,33,33,COMPLETE,126,0.047201138
+h8_asymmetric_m6,144,2,12,64,64,65,65,COMPLETE,254,0.06641619600000001
+h8_asymmetric_m7,168,2,14,128,128,129,129,COMPLETE,510,0.09451969199999997
+h8_asymmetric_m8,192,2,16,256,256,257,257,COMPLETE,1260,0.14190051100000012

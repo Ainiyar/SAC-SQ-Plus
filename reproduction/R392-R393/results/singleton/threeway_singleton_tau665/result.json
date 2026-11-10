@@ -1,0 +1,23 @@
+{
+  "box": "threeway_singleton_tau665",
+  "n": 24,
+  "kmin": 1,
+  "kmax": 3,
+  "independent_seed_count": 2,
+  "count_midpoint_candidate_count": 3,
+  "new_count_candidates": 1,
+  "seed_cpu": 0.005298727999999975,
+  "midpoint_count_dp_cpu": 0.0003291790000000683,
+  "cert_cpu": 0.002342,
+  "status": "COMPLETE",
+  "created_labels": 7,
+  "sink_candidates": 3,
+  "cert_returncode": 0,
+  "support_cpu": 0.002250000000000001,
+  "support_returncode": 0,
+  "supported_paths": 3,
+  "archive_count": 3,
+  "candidate_archive_intersection": 3,
+  "certified_identity_equals_archive": true,
+  "total_cpu_all_stages": 0.010219907000000044
+}

@@ -1,0 +1,6 @@
+# Historical R333/R343 acquisition environment; use Python 3.10.
+numpy==1.21.5
+scipy==1.8.0
+numba==0.55.1
+llvmlite==0.38.0
+pandas==1.5.3

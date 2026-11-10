@@ -1,0 +1,4 @@
+﻿path_index,segments_k,possible,beta_lo_exact_scaled,beta_hi_exact_scaled,beta_lo,beta_hi,support_type,same_count
+0,3,1,100000000000,665000000000,0.1,0.665,closed interval,1
+1,2,1,665000000000,665000000000,0.665,0.665,singleton,1
+2,1,1,665000000000,1200000000000,0.665,1.2,closed interval,1

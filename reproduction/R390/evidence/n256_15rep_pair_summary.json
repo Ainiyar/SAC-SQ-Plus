@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "run": "whole_round_holdout_occupancy_1280_lookahead",
+      "n": 256,
+      "repeats": 15,
+      "old_search_median": 0.011683000000000006,
+      "new_search_median": 0.004078999999999999,
+      "old_support_median": 0.0037640000000000035,
+      "new_support_median": 0.0036759999999999987,
+      "old_total_median": 0.015644999999999992,
+      "new_total_median": 0.008007,
+      "certificate_speedup": 1.9539153240914189
+    },
+    {
+      "run": "whole_round_holdout_occupancy_1280_crops_pelt",
+      "n": 256,
+      "repeats": 15,
+      "old_search_median": 0.009554000000000007,
+      "new_search_median": 0.004046999999999995,
+      "old_support_median": 0.003634000000000026,
+      "new_support_median": 0.003705000000000014,
+      "old_total_median": 0.013475000000000015,
+      "new_total_median": 0.007736000000000021,
+      "certificate_speedup": 1.7418562564632858
+    },
+    {
+      "run": "whole_round_holdout_eeg_1408_lookahead",
+      "n": 256,
+      "repeats": 15,
+      "old_search_median": 0.041941000000000006,
+      "new_search_median": 0.015129000000000004,
+      "old_support_median": 0.008196999999999843,
+      "new_support_median": 0.007488999999999968,
+      "old_total_median": 0.04917600000000005,
+      "new_total_median": 0.022711999999999843,
+      "certificate_speedup": 2.1651990137372485
+    },
+    {
+      "run": "whole_round_holdout_eeg_1408_crops_pelt",
+      "n": 256,
+      "repeats": 15,
+      "old_search_median": 0.03349299999999994,
+      "new_search_median": 0.014850999999999948,
+      "old_support_median": 0.008012999999999826,
+      "new_support_median": 0.007675999999999905,
+      "old_total_median": 0.04087600000000047,
+      "new_total_median": 0.022474000000000105,
+      "certificate_speedup": 1.8188128504049246
+    },
+    {
+      "run": "whole_round_holdout_secom_512_lookahead",
+      "n": 256,
+      "repeats": 15,
+      "old_search_median": 0.06306199999999995,
+      "new_search_median": 0.030170000000000086,
+      "old_support_median": 0.013300999999999785,
+      "new_support_median": 0.008687,
+      "old_total_median": 0.07566999999999996,
+      "new_total_median": 0.039130000000000165,
+      "certificate_speedup": 1.9338103756708316
+    },
+    {
+      "run": "whole_round_holdout_secom_512_crops_pelt",
+      "n": 256,
+      "repeats": 15,
+      "old_search_median": 0.043190000000000395,
+      "new_search_median": 0.028256999999999977,
+      "old_support_median": 0.009553000000000145,
+      "new_support_median": 0.008599000000000245,
+      "old_total_median": 0.052704999999999336,
+      "new_total_median": 0.03688300000000044,
+      "certificate_speedup": 1.4289781200010494
+    }
+  ],
+  "scope": "n256: independent process CPU on same local host; enumerator + exact support"
+}

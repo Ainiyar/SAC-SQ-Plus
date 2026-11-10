@@ -1,0 +1,57 @@
+[
+  {
+    "box": "R372_baseline",
+    "all_candidate_support_records_identical": true,
+    "support_records": 7
+  },
+  {
+    "box": "whole_round_holdout_secom_512_lookahead",
+    "all_candidate_support_records_identical": true,
+    "support_records": 18
+  },
+  {
+    "box": "whole_round_holdout_eeg_1408_lookahead",
+    "all_candidate_support_records_identical": true,
+    "support_records": 15
+  },
+  {
+    "box": "R372_certificate_debt",
+    "all_candidate_support_records_identical": true,
+    "support_records": 7
+  },
+  {
+    "box": "n1024_occupancy_1536_lookahead",
+    "all_candidate_support_records_identical": true,
+    "support_records": 14
+  },
+  {
+    "box": "n1024_occupancy_1536_crops_pelt",
+    "all_candidate_support_records_identical": true,
+    "support_records": 14
+  },
+  {
+    "box": "R343_n1024",
+    "all_candidate_support_records_identical": true,
+    "support_records": 14
+  },
+  {
+    "box": "whole_round_holdout_occupancy_1280_crops_pelt",
+    "all_candidate_support_records_identical": true,
+    "support_records": 5
+  },
+  {
+    "box": "whole_round_holdout_occupancy_1280_lookahead",
+    "all_candidate_support_records_identical": true,
+    "support_records": 5
+  },
+  {
+    "box": "whole_round_holdout_secom_512_crops_pelt",
+    "all_candidate_support_records_identical": true,
+    "support_records": 18
+  },
+  {
+    "box": "whole_round_holdout_eeg_1408_crops_pelt",
+    "all_candidate_support_records_identical": true,
+    "support_records": 15
+  }
+]

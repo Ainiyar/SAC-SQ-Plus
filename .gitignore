@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+**/bin/
+*.o
+*.so
+*.dll
+*.dylib
+acquisition/occupancy/uci_occupancy.zip
+acquisition/eeg/uci_eeg.zip
+acquisition/secom/uci_secom.zip
+acquisition/data/fresh_runs/
+reproduction/R390/results/n256_15rep/
+.DS_Store

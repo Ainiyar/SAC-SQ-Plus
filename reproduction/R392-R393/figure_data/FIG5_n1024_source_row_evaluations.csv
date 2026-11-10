@@ -1,0 +1,3 @@
+﻿system,high_precision_row_evaluations,comparison_scope,notes
+strict CROPS+PELT,17399113,one matched R333 n1024 workload,strict direct-fit source rows
+shared-source SAC,82766,one matched R333 n1024 workload,shared source evidence

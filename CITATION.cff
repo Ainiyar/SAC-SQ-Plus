@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or its reproducibility data, please cite the accompanying SAC-SQ+ manuscript and the archived software release."
+title: "Collective Exclusion Certificates for Complete Regularization Paths under Interval-Valued Segment Costs"
+version: "1.0.0"
+abstract: >-
+  Software and reproducibility artifacts for computing complete regularization paths
+  under interval-valued segment costs and a shared continuous penalty. The release
+  includes exact continuous witness-interval certification, exact closed-support
+  filtering, archive-independent witness generation, fitted-cost acquisition source,
+  frozen cost-box inputs, analytical constructions, and paired benchmark outputs.
+authors:
+  - family-names: Xilali
+    given-names: Ainiyaer
+    affiliation: "College of Computer Science and Artificial Intelligence, Fudan University"
+  - family-names: Chen
+    given-names: Yutian
+    affiliation: "College of Future Information Technology, Fudan University"
+keywords:
+  - changepoint detection
+  - regularization paths
+  - interval shortest paths
+  - exact algorithms
+  - witness certificates
+  - segmentation
+license: MIT
+repository-code: "https://github.com/Ainiyar/SAC-SQ-Plus"

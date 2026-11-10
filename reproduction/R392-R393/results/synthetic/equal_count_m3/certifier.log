@@ -1,0 +1,18 @@
+status COMPLETE
+n 18 h 2 edges 153
+pops 30 extensions 29 created 30 skipped 113 accepted 30
+max_labels_at_node 9 active_sink_paths 9
+archive_witnesses 6 archive_pruned 113 archive_checked 726 intervals_created 437
+hull_candidates 822 hull_vertices_total 108 max_hull_vertices_at_node 2
+preprocess_cpu_seconds 0.000023 preprocess_wall_seconds 0.000019
+search_cpu_seconds 0.000034 search_wall_seconds 0.000034 total_cpu_seconds 0.000057
+PATH 0:2 2:6 6:8 8:12 12:14 14:18
+PATH 0:2 2:6 6:8 8:12 12:15 15:18
+PATH 0:2 2:6 6:9 9:12 12:14 14:18
+PATH 0:2 2:6 6:9 9:12 12:15 15:18
+PATH 0:3 3:6 6:8 8:12 12:14 14:18
+PATH 0:3 3:6 6:8 8:12 12:15 15:18
+PATH 0:3 3:6 6:9 9:12 12:14 14:18
+PATH 0:3 3:6 6:9 9:12 12:15 15:18
+PATH 0:18
+

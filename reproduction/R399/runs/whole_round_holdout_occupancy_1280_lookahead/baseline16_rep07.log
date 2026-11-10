@@ -1,0 +1,11 @@
+status COMPLETE
+n 256 h 8 edges 31125
+pops 197 extensions 196 created 197 skipped 15954 accepted 124
+max_labels_at_node 16 active_sink_paths 5 seconds 0.00361896
+archive_witnesses 5 archive_pruned 15881 archive_checked 34351 beta_cells 16 archive_cells_covered 256957
+PATH 0:54 54:110 110:133 133:153 153:174 174:205 205:256
+PATH 0:54 54:115 115:142 142:174 174:205 205:256
+PATH 0:101 101:137 137:174 174:205 205:256
+PATH 0:101 101:137 137:174 174:256
+PATH 0:131 131:174 174:256
+

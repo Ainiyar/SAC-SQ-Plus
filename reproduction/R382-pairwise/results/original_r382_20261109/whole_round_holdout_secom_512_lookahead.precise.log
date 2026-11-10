@@ -1,0 +1,7 @@
+status LABEL_LIMIT
+n 256 h 8 edges 31125
+pops 120819 extensions 1999999 created 2000000 skipped 109744 accepted 11075
+max_labels_at_node 1250 active_sink_paths 0 seconds 1.12278
+archive_witnesses 0 archive_pruned 0 archive_checked 0 beta_cells 16 archive_cells_covered 0
+
+STDERR

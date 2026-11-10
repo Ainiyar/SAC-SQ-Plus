@@ -1,0 +1,18 @@
+{
+  "occ256": {
+    "historical_cpu_ratio": 10.488429387915755,
+    "cross_host_stage_sum_ratio_diagnostic_only": 10.473783397284043
+  },
+  "eeg256": {
+    "historical_cpu_ratio": 4.535390512676477,
+    "cross_host_stage_sum_ratio_diagnostic_only": 4.525656259481393
+  },
+  "secom256": {
+    "historical_cpu_ratio": 5.62310367070311,
+    "cross_host_stage_sum_ratio_diagnostic_only": 5.603342989930337
+  },
+  "occ1024": {
+    "historical_cpu_ratio": 7.74768103063607,
+    "cross_host_stage_sum_ratio_diagnostic_only": 7.455653723522604
+  }
+}

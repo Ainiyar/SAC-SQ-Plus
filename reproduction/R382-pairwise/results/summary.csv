@@ -1,0 +1,7 @@
+arm,status,created_labels,sink_candidates,process_cpu_seconds,wall_seconds,returncode,exact_possible_paths,matches_R392_exact_support
+whole_round_holdout_occupancy_1280_lookahead,LABEL_LIMIT,2000000,0,1.6879940000000007,1.6915546410000388,0,,
+whole_round_holdout_occupancy_1280_crops_pelt,COMPLETE,56422,5,0.021990999999999872,0.022551644999111886,0,5,True
+whole_round_holdout_eeg_1408_lookahead,LABEL_LIMIT,2000000,0,2.046720999999999,2.0475061369998,0,,
+whole_round_holdout_eeg_1408_crops_pelt,COMPLETE,184502,15,0.2069770000000002,0.21360128999913286,0,15,True
+whole_round_holdout_secom_512_lookahead,LABEL_LIMIT,2000000,0,1.2918190000000003,1.2928895060003924,0,,
+whole_round_holdout_secom_512_crops_pelt,COMPLETE,213211,21,0.22003899999999987,0.2205648499993913,0,18,True

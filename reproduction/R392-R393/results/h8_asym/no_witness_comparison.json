@@ -1,0 +1,32 @@
+[
+  {
+    "m": 4,
+    "method": "same_node_pairwise_only",
+    "reps": 9,
+    "created_labels": 3721,
+    "support_paths": 17,
+    "cpu_median": 0.0025020000000000008,
+    "cpu_min": 0.0022739999999999982,
+    "cpu_max": 0.003136
+  },
+  {
+    "m": 6,
+    "method": "same_node_pairwise_only",
+    "reps": 9,
+    "created_labels": 12879,
+    "support_paths": 65,
+    "cpu_median": 0.005308,
+    "cpu_min": 0.004725999999999994,
+    "cpu_max": 0.006591
+  },
+  {
+    "m": 8,
+    "method": "same_node_pairwise_only",
+    "reps": 9,
+    "created_labels": 41439,
+    "support_paths": 257,
+    "cpu_median": 0.027510999999999994,
+    "cpu_min": 0.02559,
+    "cpu_max": 0.03353800000000001
+  }
+]
