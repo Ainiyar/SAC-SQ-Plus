@@ -159,4 +159,4 @@ See `acquisition/docs/ACQUISITION_REPRODUCTION.md` for the exact run contract an
 
 ## Citation
 
-Please cite the accompanying manuscript and this exact software/data release. `CITATION.cff` contains the software citation metadata. The Zenodo DOI will be added to the citation metadata and Data and Code Availability statement after the GitHub Release has been archived. See `docs/ZENODO_PUBLICATION_GUIDE.md` for the mixed-license release procedure.
+Please cite the accompanying manuscript and this exact software/data release. `CITATION.cff` contains the software citation metadata. The archived v1.0.0 release is available at [doi:10.5281/zenodo.24119197](https://doi.org/10.5281/zenodo.24119197). See `docs/ZENODO_PUBLICATION_GUIDE.md` for the mixed-license release procedure.
